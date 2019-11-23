@@ -8,8 +8,8 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="img/S_logo.jpg" rel="icon">
+  <link href="img/S_logo.jpg" rel="apple-touch-icon">
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,17 +24,15 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: DevFolio
-    Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
+
 </head>
 
 <body>
+
+
   <!--/ Nav Star /-->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+
+  <nav class="navbar navbar-light navbar-trans navbar-expand-md fixed-top" id="mainNav" style="background-color: #FFF;>
     <div class="container">
       <a class="navbar-brand js-scroll" href="#page-top">Zachary Serlin</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
@@ -67,6 +65,7 @@
       </div>
     </div>
   </nav>
+
   <!--/ Nav End /-->
 
   <!--/ Intro Skew Star /-->
@@ -75,36 +74,54 @@
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h3>Thing Name Here</h3>
+          <h3>ScRATCHS: Scalable and Robust Algorithms for <br/>
+            Task-based Coordination from High-level Specifications</h3>
         </div>
       </div>
     </div>
   </div>
+
   <!--/ Intro Skew End /-->
 
-  <section id="about" class="about-mf sect-pt4 route">
+  <section id="about" class="service-mf sect-pt8 route">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
           <div class="box-shadow-full">
             <div class="row">
-              <div class="col-md-6">
-                  <p class="lead">
-                    Authors:
+              <!--<div class="col-md-6">-->
+
+                  <p >
+                    <u>Abstract:</u> Existing approaches for coordinating teams of heterogeneous agents
+                    either consider small numbers of agents, are application-specific solutions, or do
+                    not adequately address requirements, e.g., deadlines or inter-task dependencies,
+                    common to real-world applications. We develop a framework called Scalable and
+                    Robust Algorithms for Task-based Coordination from High-level Specifications
+                    (ScRATCHS) to coordinate such teams. We define a specification language, called
+                    capability temporal logic (CaTL), to describe rich, temporal properties involving
+                    tasks requiring the participation of multiple agents with multiple capabilities,
+                    e.g., sensors or end effectors. An example specification is “Ensure at least 10
+                    airborne cameras and 3 airborne lidars are surveying Site A for at least 15 minutes
+                    simultaneously during every hour-long period. Make sure that 5 cameras are
+                    always observing Site B. Send 10 lidars to Site B within 3 hours of deployment
+                    and remain there until 4 ground vehicles with infrared sensors arrive 2 hours later.”
+                    Arbitrary missions and team dynamics are jointly encoded as constraints in a mixed
+                    integer linear program (MILP), which can be solved efficiently using commercial
+                    off-the-shelf solvers. ScRATCHS also enables optimization of the resulting plan to
+                    be maximally robust to agent attrition at the penalty of increased computation time.
+                    The flexible specification language, fast solution time, and optional robustness of
+                    ScRATCHS provide a first step towards a multi-purpose on-the-fly planning tool
+                    for a supervisor tasking large teams with multiple capabilities enacting missions
+                    with multiple tasks. We validate our approach using randomized computational
+                    experiments and via a hardware demonstration.
                   </p>
-                  <p class="lead">
-                    PDF:
-                  </p>
-                  <p class="lead">
-                    bibtex:
-                  </p>
-                    <h4>
-                      <u>
-                      Abstract
-                    </u>
-                  </h4>
+
               </div>
-            </div>
+            <!--</div>-->
+            <center>
+            <iframe width="800" height="500" align="center" src="https://www.youtube.com/embed/Bzw73hxiEM8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </center>
+
           </div>
         </div>
       </div>
