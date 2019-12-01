@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SerliDesigns Inner Page</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/S_logo.jpg" rel="icon">
+  <link href="img/S_logo.jpg" rel="apple-touch-icon">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+  <!--/ Nav Star /-->
+
+  <nav class="navbar navbar navbar-trans navbar-expand-md fixed-top" id="mainNav" style="background-color: #FFF;>
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top">Zachary Serlin</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="index.html#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="index.html#service">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="index.html#work">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="index.html#blog">Resume/CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="index.html#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--/ Nav End /-->
+
+  <!--/ Intro Skew Star /-->
+  <div class="intro intro-single route bg-image" style="background-image: url(img/pics/robots.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h3>ScRATCHS: Scalable and Robust Algorithms for <br/>
+            Task-based Coordination from High-level Specifications</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--/ Intro Skew End /-->
+
+  <section id="about" class="service-mf sect-pt8 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <!--<div class="col-md-6">-->
+
+                  <p >
+                    <u>Abstract:</u> Existing approaches for coordinating teams of heterogeneous agents
+                    either consider small numbers of agents, are application-specific solutions, or do
+                    not adequately address requirements, e.g., deadlines or inter-task dependencies,
+                    common to real-world applications. We develop a framework called Scalable and
+                    Robust Algorithms for Task-based Coordination from High-level Specifications
+                    (ScRATCHS) to coordinate such teams. We define a specification language, called
+                    capability temporal logic (CaTL), to describe rich, temporal properties involving
+                    tasks requiring the participation of multiple agents with multiple capabilities,
+                    e.g., sensors or end effectors. An example specification is “Ensure at least 10
+                    airborne cameras and 3 airborne lidars are surveying Site A for at least 15 minutes
+                    simultaneously during every hour-long period. Make sure that 5 cameras are
+                    always observing Site B. Send 10 lidars to Site B within 3 hours of deployment
+                    and remain there until 4 ground vehicles with infrared sensors arrive 2 hours later.”
+                    Arbitrary missions and team dynamics are jointly encoded as constraints in a mixed
+                    integer linear program (MILP), which can be solved efficiently using commercial
+                    off-the-shelf solvers. ScRATCHS also enables optimization of the resulting plan to
+                    be maximally robust to agent attrition at the penalty of increased computation time.
+                    The flexible specification language, fast solution time, and optional robustness of
+                    ScRATCHS provide a first step towards a multi-purpose on-the-fly planning tool
+                    for a supervisor tasking large teams with multiple capabilities enacting missions
+                    with multiple tasks. We validate our approach using randomized computational
+                    experiments and via a hardware demonstration.
+                  </p>
+
+              </div>
+            <!--</div>-->
+          
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
