@@ -69,13 +69,12 @@
   <!--/ Nav End /-->
 
   <!--/ Intro Skew Star /-->
-  <div class="intro intro-single route bg-image" style="background-image: url(img/pics/robots.jpg)">
+  <div class="intro intro-single route bg-image" style="background-image: url(img/pics/overhead.png)">
     <div class="overlay-mf"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h3>ScRATCHS: Scalable and Robust Algorithms for <br/>
-            Task-based Coordination from High-level Specifications</h3>
+          <h3>Distributed and Consistent Multi-Image Feature Matching via QuickMatch</h3>
         </div>
       </div>
     </div>
@@ -92,28 +91,20 @@
               <!--<div class="col-md-6">-->
 
                   <p >
-                    <u>Abstract:</u> Existing approaches for coordinating teams of heterogeneous agents
-                    either consider small numbers of agents, are application-specific solutions, or do
-                    not adequately address requirements, e.g., deadlines or inter-task dependencies,
-                    common to real-world applications. We develop a framework called Scalable and
-                    Robust Algorithms for Task-based Coordination from High-level Specifications
-                    (ScRATCHS) to coordinate such teams. We define a specification language, called
-                    capability temporal logic (CaTL), to describe rich, temporal properties involving
-                    tasks requiring the participation of multiple agents with multiple capabilities,
-                    e.g., sensors or end effectors. An example specification is “Ensure at least 10
-                    airborne cameras and 3 airborne lidars are surveying Site A for at least 15 minutes
-                    simultaneously during every hour-long period. Make sure that 5 cameras are
-                    always observing Site B. Send 10 lidars to Site B within 3 hours of deployment
-                    and remain there until 4 ground vehicles with infrared sensors arrive 2 hours later.”
-                    Arbitrary missions and team dynamics are jointly encoded as constraints in a mixed
-                    integer linear program (MILP), which can be solved efficiently using commercial
-                    off-the-shelf solvers. ScRATCHS also enables optimization of the resulting plan to
-                    be maximally robust to agent attrition at the penalty of increased computation time.
-                    The flexible specification language, fast solution time, and optional robustness of
-                    ScRATCHS provide a first step towards a multi-purpose on-the-fly planning tool
-                    for a supervisor tasking large teams with multiple capabilities enacting missions
-                    with multiple tasks. We validate our approach using randomized computational
-                    experiments and via a hardware demonstration.
+                    <u>Abstract:</u>In this work we consider the multi-image object matching problem,
+                    extend a centralized solution of the problem to a distributed solution, and present
+                    an experimental application of the centralized solution. Multi-image feature matching
+                    is a keystone of many applications, including simultaneous localization and mapping,
+                    homography, object detection, and structure from motion. We first review the QuickMatch
+                    algorithm for multi-image feature matching. We then present a scheme for distributing sets
+                    of features across computational units (agents) that largely preserves feature match quality
+                    and minimizes communication between agents (avoiding, in particular, the need of flooding all
+                    data to all agents). Finally, we show how QuickMatch performs on an object matching test with
+                    low quality images. The centralized QuickMatch algorithm is compared to other standard matching
+                    algorithms, while the Distributed QuickMatch algorithm is compared to the centralized algorithm
+                    in terms of preservation of match consistency. The presented experiment shows that QuickMatch
+                    matches features across a large number of images and features in larger numbers and more
+                    accurately than standard techniques.
                   </p>
 
               </div>
